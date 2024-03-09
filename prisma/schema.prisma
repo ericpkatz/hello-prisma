@@ -17,5 +17,5 @@ model Note {
   id Int @id @default(autoincrement())
   name String @db.VarChar(100) @unique
   ranking Int
-  date_create DateTime @default(now())
+  date_created DateTime @default(now())
 }
